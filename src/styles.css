@@ -50,6 +50,11 @@ header a {
   padding: 16px 32px;
 }
 
+header a:hover {
+  text-decoration:2px solid underline #01182d;
+
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
