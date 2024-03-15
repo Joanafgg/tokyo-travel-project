@@ -1,11 +1,11 @@
 /** @format */
 body {
   font-family: "Poppins", sans-serif;
-  background: #69595B;
+  background: #01182D;
 }
 
 header {
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/mountain.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover.jpg);
   padding: 200px 0;
   background-size: cover;
   background-position: center;
@@ -45,8 +45,53 @@ header a {
   text-transform: uppercase;
   background: white ;
   text-decoration: none;
-  color: #272044;
+  color: #01182D;
   padding: 16px 32px;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  color: white;
+  background-image:linear-gradient(rgba(1,24,45,0.8), rgba(1,24,45,0.8)), url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+footer h4 {
+font-size: 20px;
+line-height: 30px;
+font-weight: 700;
+text-align: center;
+}
+
+footer p {
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  opacity: 0.7;
+  text-align: center;
+  margin: 20px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+footer a{
+  color: white;
+  opacity: 0.7;
 }
 
 
@@ -55,7 +100,12 @@ header a {
   margin: 0 auto;
 }
 
-@media (max-width:900px) {
+.grid { 
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+@media (max-width:960px) {
   
   header {
     padding: 60px 0;
